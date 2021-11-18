@@ -1,16 +1,13 @@
-# This is a sample Python script.
+from TK-1 import func1
+from TK-2 import func2
+from TK-3 import func3
+from TK-4 import func4
+from TK-5 import func5
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def main():
+    func1(5)
+    print(func2([10, 6, 9, 7, 2]))
+    print(func3([17, 6, 3, 7, 2]))
+    print(func4([1, 3, 5, 2, 11]))
+    print(func5([1, 6, 9, 17, 25]))
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
